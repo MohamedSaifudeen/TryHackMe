@@ -16,7 +16,7 @@ What is the number of detected packets you got?
 
 	2.Open the rules file 
 	
-![Snort Example](../../TryHackMe/Images/snort1.png)
+![Snort Example](../../Images/snort1.png)
 
 
 	3.edit it with the following rule 
