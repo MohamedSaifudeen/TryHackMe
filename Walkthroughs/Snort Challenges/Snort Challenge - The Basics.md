@@ -16,14 +16,14 @@ What is the number of detected packets you got?
 
 	2.Open the rules file 
 	
-![Snort Example](/TryHackMe/Images/snort1.png)
+![Snort Example](../../Images/snort1.png)
 
 
 	3.edit it with the following rule 
 
 		`alert tcp any any -> any 80 (msg:"HTTP traffic detected"; sid:100001; rev :1)`
 
-![Snort Example](/TryHackMe/Images/snort2.png)
+![Snort Example](../../Images/snort2.png)
 
 	this rule captures all the http traffic, save it.
 
@@ -31,11 +31,11 @@ What is the number of detected packets you got?
 
 		snort -c local.rules -A full -l . -r mx-3.pcap
 		
-![Snort Example](/TryHackMe/Images/snort3.png)
+![Snort Example](../../Images/snort3.png)
 
 	This generates the alert file and a log file you can either check the alerts in that or at the end of detection result. 
 
-![Snort Example](/TryHackMe/Images/snort4.png)
+![Snort Example](../../Images/snort4.png)
 
 Answer: 164
 
